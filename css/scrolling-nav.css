@@ -74,6 +74,66 @@ section {
   padding: 150px 0;
 }
 
+.list-icons .html5 i:hover{
+    color:#d8412c;
+} 
+
+.list-icons .css3 i:hover{
+    color:#2c70bd;
+} 
+
+.list-icons .javascript i:hover{
+    color:#000;
+}
+
+.list-icons .jquery i:hover{
+    color:#275ca0;
+} 
+
+.list-icons .sass i:hover{
+    color:#c55591;
+} 
+
+.list-icons .bootstrap i:hover{
+    color:#5c3488;
+}
+
+.list-icons .wordpress i:hover{
+    color:#2f6a90;
+} 
+
+.list-icons .gulp i:hover{
+    color:#d03b46;
+} 
+
+.list-icons .npm i:hover{
+    color:#c6212f;
+} 
+
+.list-icons .brackets i:hover{
+    color:#40a0db;
+} 
+
+.list-icons .photoshop i:hover{
+    color:#3fc1fc;
+} 
+
+.list-inline-item.facebook .fa-stack:hover .fa-circle{
+    color:#3d4d8d;
+}
+
+.list-inline-item.twitter .fa-stack:hover .fa-circle{
+    color:#3f95ee;
+}
+
+.list-inline-item.linkedin .fa-stack:hover .fa-circle{
+    color:#286bab;
+}
+
+.list-inline-item.github .fa-stack:hover .fa-circle{
+    color:#000;
+}
+
 .contato p{
     font-weight:bold;
     font-size: 22px;
