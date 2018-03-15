@@ -13,6 +13,46 @@ header {
               0 4px 8px 0 rgba(0,0,0,.05);
 }
 
+/*Animações*/
+.animated {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -40px, 0);
+    transform: translate3d(0, -40px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -40px, 0);
+    transform: translate3d(0, -40px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+
 .bg-color {
 	background: #FDF1DD !important;
 }
@@ -102,16 +142,16 @@ section {
     color:#2f6a90;
 } 
 
-.list-icons .gulp i:hover{
-    color:#d03b46;
+.list-icons .java i:hover{
+    color:#4E61AE;
 } 
 
-.list-icons .npm i:hover{
-    color:#c6212f;
+.list-icons .php i:hover{
+    color:#8892BF;
 } 
 
-.list-icons .brackets i:hover{
-    color:#40a0db;
+.list-icons .linux i:hover{
+    color:#000;
 } 
 
 .list-icons .photoshop i:hover{
