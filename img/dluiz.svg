@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="236px" height="83px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 236 83"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="537" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Technoma">
+		<font-face-src>
+			<font-face-name name="Technoma"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="U" horiz-adv-x="537" d="M146.518 683.684l0 -488.34c0,-48.8259 32.4696,-73.3603 97.6518,-73.3603 64.9798,0 97.6518,24.5344 97.6518,73.3603l0 488.34 146.518 0 0 -488.34c0,-130.162 -81.498,-195.344 -244.17,-195.344 -162.834,0 -244.17,65.1822 -244.17,195.344l0 488.34 146.518 0z"/>
+   <glyph unicode="D" horiz-adv-x="537" d="M244.165 683.674c162.669,0 244.165,-65.1778 244.165,-195.344l0 -293.006c0,-130.166 -81.496,-195.325 -244.165,-195.325l-244.165 0 0 683.674 244.165 0zm97.6623 -195.344c0,48.8407 -32.6553,73.1661 -97.6623,73.1661l-97.6623 0 0 -439.49 97.6623 0c65.007,0 97.6623,24.4962 97.6623,73.3179l0 293.006z"/>
+   <glyph unicode="A" horiz-adv-x="537" d="M146.503 195.325l0 -195.325 -146.503 0 0 405.336c0,130.166 81.3252,227.828 244.165,293.006 162.669,-65.1778 244.165,-162.84 244.165,-293.006l0 -405.336 -146.503 0 0 195.325 -195.325 0zm195.325 122.007l0 136.826c0,16.1853 -32.6553,47.1709 -97.6623,92.672 -65.1588,-45.5011 -97.6623,-76.4867 -97.6623,-92.672l0 -136.826 195.325 0z"/>
+   <glyph unicode="O" horiz-adv-x="537" d="M341.828 195.325l0 293.006c0,48.8407 -32.6553,73.1661 -97.6623,73.1661 -65.1588,0 -97.6623,-24.3255 -97.6623,-73.1661l0 -293.006c0,-48.8217 32.5035,-73.3179 97.6623,-73.3179 65.007,0 97.6623,24.4962 97.6623,73.3179zm-341.828 0l0 293.006c0,130.166 81.3252,195.344 244.165,195.344 162.669,0 244.165,-65.1778 244.165,-195.344l0 -293.006c0,-130.166 -81.496,-195.325 -244.165,-195.325 -162.84,0 -244.165,65.1588 -244.165,195.325z"/>
+   <glyph unicode="L" horiz-adv-x="488" d="M0.49334 122.007l0 561.667 146.503 0 -0.49334 -561.667 293.006 0 0 -122.007 -439.509 0 0 122.007 0.49334 0z"/>
+   <glyph unicode="Z" horiz-adv-x="537" d="M170.85 121.984l317.49 0 0 -121.984 -488.34 0 0 121.984 317.328 439.514 -317.328 0 0 122.186 488.34 0 0 -122.186 -317.49 -439.514z"/>
+   <glyph unicode="I" horiz-adv-x="195" d="M146.503 683.674l0 -708 -146.503 24.3255 0 683.674 146.503 0z"/>
+   <glyph unicode="N" horiz-adv-x="537" d="M146.996 397.499l0 -421.825 -146.503 24.3255 0 683.674 170.335 0 170.999 -398.011 0 397.499 146.503 0 0.49334 -683.162 -146.996 -0.49334 0 0.49334 -24.4962 0 -170.335 397.499z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Technoma";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .str1 {stroke:#FEFEFE;stroke-width:1.24372;stroke-linecap:round}
+    .str0 {stroke:#C4C4C4;stroke-width:2.4898;stroke-linecap:round}
+    .fil0 {fill:none;fill-rule:nonzero}
+    .fil1 {fill:#181716}
+    .fil2 {fill:#FDA20C;fill-rule:nonzero}
+    .fnt1 {font-weight:normal;font-size:29.146px;font-family:'Technoma'}
+    .fnt0 {font-weight:normal;font-size:62.1884px;font-family:'Technoma'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2358518854448">
+   <g>
+    <path class="fil0 str0" d="M66 6c10,0 15,4 15,12l0 18c0,9 -5,13 -15,13l-16 0 0 -43 16 0zm6 12c0,-3 -2,-4 -6,-4l-6 0 0 27 6 0c4,0 6,-2 6,-5l0 -18z"/>
+   </g>
+   <g>
+    <path id="1" class="fil0 str0" d="M93 36l0 13 -9 0 0 -26c0,-8 5,-14 15,-18 10,4 15,10 15,18l0 26 -9 0 0 -13 -12 0zm12 -7l0 -9c0,-1 -2,-3 -6,-5 -4,2 -6,4 -6,5l0 9 12 0z"/>
+   </g>
+   <g>
+    <polygon id="2" class="fil0 str0" points="128,24 128,50 118,49 118,6 129,6 140,31 140,6 149,6 149,49 140,49 140,49 138,49 "/>
+   </g>
+   <g>
+    <polygon id="3" class="fil0 str0" points="164,6 164,50 154,49 154,6 "/>
+   </g>
+   <g>
+    <polygon id="4" class="fil0 str0" points="169,41 169,6 179,6 178,41 197,41 197,49 169,49 169,41 "/>
+   </g>
+   <g>
+    <path id="5" class="fil0 str0" d="M218 36l0 -18c0,-3 -2,-4 -6,-4 -4,0 -6,1 -6,4l0 18c0,3 2,5 6,5 4,0 6,-2 6,-5zm-21 0l0 -18c0,-8 5,-12 15,-12 10,0 15,4 15,12l0 18c0,9 -5,13 -15,13 -10,0 -15,-4 -15,-13z"/>
+   </g>
+   <g>
+    <polygon id="6" class="fil0 str0" points="50,73 50,57 55,57 55,73 63,73 63,77 50,77 50,73 "/>
+   </g>
+   <g>
+    <path id="7" class="fil0 str0" d="M110 57l0 14c0,1 1,2 3,2 2,0 3,-1 3,-2l0 -14 4 0 0 14c0,4 -2,6 -7,6 -5,0 -7,-2 -7,-6l0 -14 4 0z"/>
+   </g>
+   <g>
+    <polygon id="8" class="fil0 str0" points="170,57 170,77 166,77 166,57 "/>
+   </g>
+   <g>
+    <polygon id="9" class="fil0 str0" points="219,73 229,73 229,77 214,77 214,73 224,60 214,60 214,57 229,57 229,60 "/>
+   </g>
+   <text x="50" y="49" id="9" class="fil1 fnt0">DANILO</text>
+   <text x="50" y="77" id="9" class="fil1 fnt1">L</text>
+   <text x="106" y="77" id="9" class="fil1 fnt1">U</text>
+   <text x="166" y="77" id="9" class="fil1 fnt1">I</text>
+   <text x="214" y="77" id="9" class="fil1 fnt1">Z</text>
+   <g>
+    <path class="fil0 str1" d="M66 6c10,0 15,4 15,12l0 18c0,9 -5,13 -15,13l-16 0 0 -43 16 0zm6 12c0,-3 -2,-4 -6,-4l-6 0 0 27 6 0c4,0 6,-2 6,-5l0 -18z"/>
+   </g>
+   <g>
+    <path id="1" class="fil0 str1" d="M93 36l0 13 -9 0 0 -26c0,-8 5,-14 15,-18 10,4 15,10 15,18l0 26 -9 0 0 -13 -12 0zm12 -7l0 -9c0,-1 -2,-3 -6,-5 -4,2 -6,4 -6,5l0 9 12 0z"/>
+   </g>
+   <g>
+    <polygon id="2" class="fil0 str1" points="128,24 128,50 118,49 118,6 129,6 140,31 140,6 149,6 149,49 140,49 140,49 138,49 "/>
+   </g>
+   <g>
+    <polygon id="3" class="fil0 str1" points="164,6 164,50 154,49 154,6 "/>
+   </g>
+   <g>
+    <polygon id="4" class="fil0 str1" points="169,41 169,6 179,6 178,41 197,41 197,49 169,49 169,41 "/>
+   </g>
+   <g>
+    <path id="5" class="fil0 str1" d="M218 36l0 -18c0,-3 -2,-4 -6,-4 -4,0 -6,1 -6,4l0 18c0,3 2,5 6,5 4,0 6,-2 6,-5zm-21 0l0 -18c0,-8 5,-12 15,-12 10,0 15,4 15,12l0 18c0,9 -5,13 -15,13 -10,0 -15,-4 -15,-13z"/>
+   </g>
+   <g>
+    <polygon id="6" class="fil0 str1" points="50,73 50,57 55,57 55,73 63,73 63,77 50,77 50,73 "/>
+   </g>
+   <g>
+    <path id="7" class="fil0 str1" d="M110 57l0 14c0,1 1,2 3,2 2,0 3,-1 3,-2l0 -14 4 0 0 14c0,4 -2,6 -7,6 -5,0 -7,-2 -7,-6l0 -14 4 0z"/>
+   </g>
+   <g>
+    <polygon id="8" class="fil0 str1" points="170,57 170,77 166,77 166,57 "/>
+   </g>
+   <g>
+    <polygon id="9" class="fil0 str1" points="219,73 229,73 229,77 214,77 214,73 224,60 214,60 214,57 229,57 229,60 "/>
+   </g>
+   <text x="50" y="49" id="9" class="fil1 fnt0">DANILO</text>
+   <text x="50" y="77" id="9" class="fil1 fnt1">L</text>
+   <text x="106" y="77" id="9" class="fil1 fnt1">U</text>
+   <text x="166" y="77" id="9" class="fil1 fnt1">I</text>
+   <text x="214" y="77" id="9" class="fil1 fnt1">Z</text>
+   <path class="fil2" d="M7 32l10 0c0,12 0,25 0,37l20 0 0 8 -30 0c0,-15 0,-30 0,-45zm0 -4l0 -23 17 0c10,0 16,4 16,13l0 20c0,8 -6,13 -16,13l-4 0 0 -8 4 0c4,0 6,-2 6,-5l0 -20c0,-3 -2,-5 -6,-5l-7 0 0 15 -10 0z"/>
+  </g>
+ </g>
+</svg>

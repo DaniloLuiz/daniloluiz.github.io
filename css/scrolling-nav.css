@@ -1,0 +1,80 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+  padding: 154px 0 100px;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
+              0 4px 8px 0 rgba(0,0,0,.05);
+}
+
+.bg-color {
+	background: #FDF1DD !important;
+}
+
+.list-social-icons a {
+  color: #495057; }
+  .list-social-icons a:hover {
+    color: #BD5D38; }
+  .list-social-icons a .fa-lg {
+    font-size: 1.75rem; }
+
+.list-icons {
+  font-size: 3rem; }
+  .list-icons .list-inline-item i:hover {
+    color: #BD5D38; }
+
+.list-inline-item.facebook .fa-stack:hover .fa-circle{
+    color:#3d4d8d;
+}
+
+.list-inline-item.twitter .fa-stack:hover .fa-circle{
+    color:#3f95ee;
+}
+
+.list-inline-item.linkedin .fa-stack:hover .fa-circle{
+    color:#286bab;
+}
+
+.list-inline-item.github .fa-stack:hover .fa-circle{
+    color:#000;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important; }
+  section.resume-section .resume-item .resume-date {
+    min-width: none; }
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh; }
+    section.resume-section .resume-item .resume-date {
+      min-width: 18rem; } }
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important; } }
+
+section {
+  padding: 150px 0;
+}
+
+.contato p{
+    font-weight:bold;
+    font-size: 22px;
+}
