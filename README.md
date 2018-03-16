@@ -5,10 +5,8 @@
 ---
 
 ## To-Do: 
-* ~~redesign page 1~~
-* more social links (add codepen, jsfiddle etc...)
-* add page 4 (experience, interest, passion, projects...)
-* mobile responsive
+* ~~Re-dedesign página principal~~
+* adicionar portifólio
 
 # Progresso geral... (75% completo)
 
