@@ -5,8 +5,8 @@
 ---
 
 ## To-Do: 
-* ~~Re-dedesign página principal~~
-* adicionar portifólio
+* ~~Re-design página principal~~
+* Adicionar portifólio
 
 # Progresso geral... (75% completo)
 
