@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <div class="container">
+        <form id="sendForm" action="" method="POST" name="form">
+            <hr>
+            <h2 class= "text-center">UPDATE - Recebimento de madeiras</h2>
+            <hr>
+            <!-- INICIO - Data e Turno -->
+            <div class="form-row col-md-12">
+                <div class="form-group col-md-4">
+                    <label for="data">Data</label>
+                    <input type="date" class="form-control" id="data">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="horaTurno">Horário</label>
+                    <select id="horaTurno" class="form-control">
+                      <option selected>Selecione...</option>
+                      <option>00:00 às 08:00</option>
+                      <option>08:00 às 16:00</option>
+                      <option>16:00 às 00:00</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="turno">Turno</label>
+                    <select id="turno" class="form-control">
+                      <option selected>Selecione...</option>
+                      <option>A</option>
+                      <option>B</option>
+                      <option>C</option>
+                      <option>D</option>
+                      <option>E</option>
+                    </select>
+                  </div>
+            </div>
+            <!-- FIM - Data e Turno -->
+        
+            <!-- INICIO - Quantidade de Toretes -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Toretes</h2>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="qtdToretePinus">Pinus</label>
+                    <input type="number" class="form-control" id="qtdToretePinus" placeholder="Quantidade">
+                </div>
+                
+                <div class="form-group col-md-6">
+                    <label for="tnToretePinus">Peso</label>
+                    <input type="number" class="form-control" id="tnToretePinus" placeholder="tn">
+                </div>
+                
+                <div class="form-group col-md-6">
+                    <label for="qtdToreteEuca">Eucalipto</label>
+                    <input type="number" class="form-control" id="qtdToreteEuca" placeholder="Quantidade">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="tnToreteEuca">Peso</label>
+                    <input type="number" class="form-control" id="tnToreteEuca" placeholder="tn">
+                </div>
+            </div>
+            <!-- FIM - Quantidade de Toretes -->
+
+            <!-- INICIO - Quantidade de Cavaco -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Cavaco</h2>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="qtdCavacoPinus">Pinus/Serraria</label>
+                    <input type="number" class="form-control" id="qtdCavacoPinus" placeholder="Quantidade">
+                </div>
+                
+                <div class="form-group col-md-6">
+                    <label for="tnCavacoPinus">Peso</label>
+                    <input type="number" class="form-control" id="tnCavacoPinus" placeholder="tn">
+                </div>
+                
+                <div class="form-group col-md-6">
+                    <label for="qtdCavacoEuca">Eucalipto</label>
+                    <input type="number" class="form-control" id="qtdCavacoEuca" placeholder="Quantidade">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="tnCavacoEuca">Peso</label>
+                    <input type="number" class="form-control" id="tnCavacoEuca" placeholder="tn">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="qtdCavacoCelulose">Celulose</label>
+                    <input type="number" class="form-control" id="qtdCavacoCelulose" placeholder="Quantidade">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="tnCavacoCelulose">Peso</label>
+                    <input type="number" class="form-control" id="tnCavacoCelulose" placeholder="tn">
+                </div>
+            </div>
+            <!-- FIM - Quantidade de Cavaco -->
+
+            <!-- INICIO - Quantidade de Toretes -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Fila</h2>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="filaInterna">Interna</label>
+                    <input type="number" class="form-control" id="filaInterna">
+                </div>
+                
+                <div class="form-group col-md-6">
+                    <label for="filaExterna">Externa</label>
+                    <input type="number" class="form-control" id="filaExterna">
+                </div>
+            </div>
+            <!-- FIM - Quantidade de Toretes -->
+            <hr>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
+            <hr>
+        </form>     
+    </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
