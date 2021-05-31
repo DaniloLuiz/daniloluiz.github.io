@@ -28,11 +28,8 @@
 
       var msg = "https:/wa.me/?text=*UPDATE%20-%20Recebimento%20de%20Madeiras*%0A_" + dataformatada + "%20-%20" + today + "_%0A_Turno%20" + turno + "%20das%20" + horaTurno +"_%0A--------------------------------------------------------------------%0A*Toretes*%20%0A✔️%20" + qtdToretePinus + "%20cargas%20de%20pinus%20=%20" + tnToretePinus + "%20tn%0A✔️%20" + qtdToreteEuca + "%20cargas%20de%20euca.%20=%20" + tnToreteEuca + "%20tn%0A_*Total:%20" + totalQtd + "%20cargas%20=%20" + totalTn + "%20tn*_%0A--------------------------------------------------------------------%0A*Cavaco*%0A✔️%20Pinus/Serraria:%20" + qtdCavacoPinus + "%20cargas%20=%20" + tnCavacoPinus + "%20tn%0A✔️%20Eucalipto:%20" + qtdCavacoEuca + "%20cargas%20=%20" + tnCavacoEuca + "%20tn%0A✔️%20Celulose:%20" + qtdCavacoCelulose + "%20cargas%20=%20" + tnCavacoCelulose + "%20tn%0A--------------------------------------------------------------------%0A*Fila*%0AInterna:%20" + filaInterna + "%0AExterna:%20" + filaExterna + "%0A%0A_*Responsável:*%20" + responsavel + "_";
       
-      window.open(msg, '_blank');
-      /*
       $form.attr('action', msg);
       $form.attr('target', '_blank');
-      */
       $form.submit();
     });
   });
