@@ -14,9 +14,10 @@
       var qtdToretePinus = document.querySelector('#qtdToretePinus').value;
       var tnToretePinus = document.querySelector('#tnToretePinus').value;
       var qtdToreteEuca = document.querySelector('#qtdToreteEuca').value;
-      var tnToreteEuca = document.querySelector('#tnToreteEuca').value;
-      var totalQtd = parseFloat(qtdToretePinus) + parseFloat(qtdToreteEuca); 
+      var tnToreteEuca = document.querySelector('#tnToreteEuca').value;      
+      var totalQtd = parseInt(qtdToretePinus) + parseInt(qtdToreteEuca);
       var totalTn = parseFloat(tnToretePinus) + parseFloat(tnToreteEuca);
+      totalTn = totalTn.toFixed(2);
       var qtdCavacoPinus = document.querySelector('#qtdCavacoPinus').value;
       var tnCavacoPinus = document.querySelector('#tnCavacoPinus').value;
       var qtdCavacoEuca = document.querySelector('#qtdCavacoEuca').value;
