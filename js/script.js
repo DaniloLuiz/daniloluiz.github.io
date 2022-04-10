@@ -52,11 +52,8 @@
         case 'THIAGO':
           var msg = "https://api.whatsapp.com/send?phone=5515997195339&text=*UPDATE%20-%20Recebimento%20de%20Madeiras*%0A_" + dataformatada + "_%0A_Turma%20" + turno + "%20das%20" + horaTurno +"_%0A--------------------------------------------------------------------%0A*Toretes*%0A✓%20" + qtdToretePinus + "%20cargas%20de%20pinus%20=%20" + tnToretePinus + "%20tn%0A✓%20" + qtdToreteEuca + "%20cargas%20de%20euca.%20=%20" + tnToreteEuca + "%20tn%0A_*Total:%20" + totalQtd + "%20cargas%20=%20" + totalTn + "%20tn*_%0A--------------------------------------------------------------------%0A*Cavaco*%0A✓%20Pinus/Serraria:%20" + qtdCavacoPinus + "%20cargas%20=%20" + tnCavacoPinus + "%20tn%0A✓%20Eucalipto:%20" + qtdCavacoEuca + "%20cargas%20=%20" + tnCavacoEuca + "%20tn%0A✓%20Celulose:%20" + qtdCavacoCelulose + "%20cargas%20=%20" + tnCavacoCelulose + "%20tn%0A--------------------------------------------------------------------%0A*Transbordo*%0A✓%20Turno%20" + turno + ":%20" + qtdTransbordoTurno + "%20cargas%20=%20" + tnTransbordoTurno + "%20tn%0A✓%20Dia:%20" + qtdTransbordoDia + "%20cargas%20=%20" + tnTransbordoDia + "%20tn%0A--------------------------------------------------------------------%0A*Fila*%0AInterna:%20" + filaInterna + "%0AExterna:%20" + filaExterna + "%0A%0A_*Responsável:*%20" + responsavel + "_";
             break;
-        case 'Selecione...':
-          console.log("Selecione o responsavel.");
-            break;
         default:
-          console.log("Selecione o responsavel.");
+          alert("Selecione o responsável.");
       }
 
       $form.attr('action', msg);
