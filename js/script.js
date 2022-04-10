@@ -55,12 +55,9 @@
         case 'Selecione...':
           alert("Selecione o responsavel.");
             break;
-        default:
-          alert("Selecione o responsável.");
       }
 
       $form.attr('action', msg);
-      $form.attr('target', '_blank');
       $form.submit();
     });
   });
