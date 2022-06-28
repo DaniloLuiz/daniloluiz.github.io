@@ -29,11 +29,11 @@
             
             <!-- INICIO - Data e Turno -->
             <div class="form-row col-md-12">
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-4">
                     <label for="data">Data</label>
                     <input type="date" class="form-control" id="data">
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-4">
                     <label for="turno">Turma</label>
                     <select id="turno" class="form-control">
                         <option selected>Selecione...</option>
@@ -44,7 +44,7 @@
                         <option>E</option>
                     </select>
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-4">
                     <label for="horaTurno">Horário</label>
                     <select id="horaTurno" class="form-control">
                         <option selected>Selecione...</option>
@@ -54,15 +54,21 @@
                     </select>
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="responsavel">Responsavel</label>
-                    <select id="responsavel" class="form-control">
+                    <label for="assistente">Assistente</label>
+                    <select id="assistente" class="form-control">
                         <option selected>Selecione...</option>
                         <option>DANILO</option>
                         <option>DIEGO</option>
                         <option>JACONIAS</option>
-                        <option>JAIRO</option>
                         <option>REGINALDO</option>
                         <option>RICARDO</option>
+                        
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="auxiliar">Auxiliar</label>
+                    <select id="auxiliar" class="form-control">
+                        <option selected>Nenhum...</option>
                         <option>THIAGO</option>
                     </select>
                 </div>
@@ -116,17 +122,15 @@
                     <label for="qtdCavacoEuca">Eucalipto</label>
                     <input type="number" class="form-control" id="qtdCavacoEuca" placeholder="Cargas">
                 </div>
-              
                 <div class="form-group col-md-6">
                     <label for="tnCavacoEuca">Peso</label>
                     <input type="number" class="form-control" id="tnCavacoEuca" placeholder="tn">
                 </div>
-              
+
                 <div class="form-group col-md-6">
                     <label for="qtdCavacoCelulose">Celulose</label>
                     <input type="number" class="form-control" id="qtdCavacoCelulose" placeholder="Cargas">
                 </div>
-              
                 <div class="form-group col-md-6">
                     <label for="tnCavacoCelulose">Peso</label>
                     <input type="number" class="form-control" id="tnCavacoCelulose" placeholder="tn">
@@ -161,6 +165,44 @@
                 </div>
             </div>
             <!-- FIM - Transbordo -->
+
+            <!-- INICIO - Residuos -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Resíduos</h2>
+                </div>
+                
+                <div class="form-group col-md-4">
+                    <label for="resCasca">Casca</label>
+                    <input type="number" class="form-control" id="resCasca">
+                </div>
+                
+                <div class="form-group col-md-4">
+                    <label for="resCarbonato">Carbonato</label>
+                    <input type="number" class="form-control" id="resCarbonato">
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="resCinza">Cinza</label>
+                    <input type="number" class="form-control" id="resCinza">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="resLodo">Lodo</label>
+                    <input type="number" class="form-control" id="resLodo">
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="resPlastico">Plástico</label>
+                    <input type="number" class="form-control" id="resPlastico">
+                </div>
+                
+                <div class="form-group col-md-4">
+                    <label for="resEscoria">Escória</label>
+                    <input type="number" class="form-control" id="resEscoria">
+                </div>
+            </div>
+            <!-- FIM - Residuos -->
 
             <!-- INICIO - Fila -->
             <div class="form-row">
