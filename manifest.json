@@ -28,5 +28,5 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://daniloluiz.github.io/update"
+  "start_url": "https://daniloluiz.github.io/update?pwa_launcher=true"
 }
