@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Update - Saldo dos Lotes</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="shortcut icon" href="./img/favicon.ico" />
+    <link rel="icon" href="./img/favicon.ico">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <div class="container">
+        
+        <div class="text-center">
+            <hr>
+            <img src="./img/klingele.png" class="img-fluid">
+        </div>
+        <hr>
+            <h2 class= "text-center">UPDATE - SALDO FÍSICO DOS LOTES INTERNOS</h2>
+        <hr>
+        <form id="sendForm" action="" method="POST" name="form">
+            
+            <!-- INICIO - Data e Horario -->
+            <div class="form-row col-md-12">
+                <div class="form-group col-md-6">
+                    <label for="data">Data</label>
+                    <input type="date" class="form-control" id="data">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="horaTurno">Horário</label>
+                    <select id="horaTurno" class="form-control">
+                        <option selected>Selecione...</option>
+                        <option>00:00</option>
+                        <option>08:00</option>
+                        <option>16:00</option>
+                    </select>
+                </div>
+            </div>
+            <!-- FIM - Data e Horario -->
+        
+            <!-- INICIO - Tons de Toretes -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Madeira de 08 a 18 cm</h2>
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="lote101">Lote 101</label>
+                    <input type="number" class="form-control" id="lote101" placeholder="tons">
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label for="lote102">Lote 102</label>
+                    <input type="number" class="form-control" id="lote102" placeholder="tons">
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label for="lote103">Lote 103</label>
+                    <input type="number" class="form-control" id="lote103" placeholder="tons">
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label for="lote104">Lote 104</label>
+                    <input type="number" class="form-control" id="lote104" placeholder="tons">
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label for="lote105">Lote 105</label>
+                    <input type="number" class="form-control" id="lote105" placeholder="tons">
+                </div>
+                
+            </div>
+            <!-- FIM - Tons de Toretes -->
+
+            <!-- INICIO - Tons Torinha -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Madeira de 18 a 25 cm</h2>
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="lote146">Lote 146</label>
+                    <input type="number" class="form-control" id="lote146" placeholder="tons">
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label for="lote147">Lote 147</label>
+                    <input type="number" class="form-control" id="lote147" placeholder="tons">
+                </div>
+                
+            </div>
+            <!-- FIM - Tons de Torinhas -->
+
+            <!-- INICIO - Tons Eucalipto -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Madeira de Eucalipto</h2>
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="lote151">Lote 151</label>
+                    <input type="number" class="form-control" id="lote151" placeholder="tons">
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label for="lote152">Lote 152</label>
+                    <input type="number" class="form-control" id="lote152" placeholder="tons">
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label for="lote153">Lote 153</label>
+                    <input type="number" class="form-control" id="lote153" placeholder="tons">
+                </div>
+                
+            </div>
+            <!-- FIM - Tons Eucalipto -->
+            <hr>
+            <button type="submit" class="btn btn-success btn-lg btn-block">Enviar</button>
+            <hr>
+        </form>     
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="./js/jquery-3.3.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/abcdef.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="http://connect.facebook.net/en_US/all.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+  </body>
+</html>
