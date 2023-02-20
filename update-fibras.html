@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Update - FIBRAS</title>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="shortcut icon" href="./img/favicon.ico" />
+    <link rel="icon" href="./img/favicon.ico">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <div class="container">
+        
+        <div class="text-center">
+            <hr>
+            <img src="./img/klingele.png" class="img-fluid">
+        </div>
+        <hr>
+            <h2 class= "text-center">UPDATE - FIBRAS: NOVA CAMPINA</h2>
+        <hr>
+        <form id="sendForm" action="" method="POST" name="form">
+            
+            <!-- INICIO - Data -->
+            <div class="form-row col-md-12">
+                <div class="form-group col-md-12">
+                    <label for="data">Data</label>
+                    <input type="date" class="form-control" id="data">
+                </div>
+            </div>
+            <!-- FIM - Data -->
+        
+            <!-- INICIO - Segurança / Meio Ambiente -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Segurança / Meio Ambiente</h2>
+                </div>
+                <div class="form-group col-md-12">
+                    <textarea class="form-control" id="segAmbiente" rows="2"></textarea>
+                </div>                
+            </div>
+            <!-- FIM - Segurança / Meio Ambiente -->
+
+            <!-- INICIO - Preparação de Madeiras -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Preparação de Madeiras</h4>
+                </div>
+                <div class="form-group col-md-12">
+                    <h5 class= "text-center">Estoque de Cavaco:</h5>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="estoqueProcesso">Processo</label>
+                    <input type="number" class="form-control" id="estoqueProcesso" placeholder="tons">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="estoqueProcessoDias">Dias</label>
+                    <input type="number" class="form-control" id="estoqueProcessoDias" placeholder="dias">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="estoqueEnergia">Energia</label>
+                    <input type="number" class="form-control" id="estoqueEnergia" placeholder="tons">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="estoqueEnergiaDias">Dias</label>
+                    <input type="number" class="form-control" id="estoqueEnergiaDias" placeholder="dias">
+                </div>
+            </div>
+            <!-- FIM - Preparação de Madeiras -->
+
+            <!-- INICIO - Estoque madeira toras -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Estoque de madeira em toras</h2>
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="torasPinus">Pinus</label>
+                    <input type="number" class="form-control" id="torasPinus" placeholder="tons">
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="torasEucalipto">Eucalipto</label>
+                    <input type="number" class="form-control" id="torasEucalipto" placeholder="tons">
+                </div>               
+            </div>
+            <!-- FIM - Estoque madeira toras -->
+
+            <!-- INICIO - Volume Recebido -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Volume Recebido</h2>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="tonsPinus">Pinus</label>
+                    <input type="number" class="form-control" id="tonsPinus" placeholder="tons">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="cargasPinus">Cargas</label>
+                    <input type="number" class="form-control" id="cargasPinus" placeholder="cargas">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="tonsEucalipto">Eucalipto</label>
+                    <input type="number" class="form-control" id="tonsEucalipto" placeholder="tons">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="cargasEucalipto">Cargas</label>
+                    <input type="number" class="form-control" id="cargasEucalipto" placeholder="cargas">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="tonsCavaco">Cavaco Processo</label>
+                    <input type="number" class="form-control" id="tonsCavaco" placeholder="tons">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="cargasCavaco">Cargas</label>
+                    <input type="number" class="form-control" id="cargasCavaco" placeholder="cargas">
+                </div>               
+            </div>
+            <!-- FIM - Volume Reecebido -->
+
+            <!-- INICIO - Produção Fibras -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Produção de Fibras</h2>
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="producao">Produção</label>
+                    <input type="number" class="form-control" id="producao" placeholder="tons">
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="kappaMedio">Kappa Médio</label>
+                    <input type="number" class="form-control" id="kappaMedio">
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="condutividadeMedia">Condutividade Média</label>
+                    <input type="number" class="form-control" id="condutividadeMedia" placeholder="uS/cm²">
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="perdaAlcalina">Perda Alcalina NaOH</label>
+                    <input type="number" class="form-control" id="perdaAlcalina" placeholder="kg/ton">
+                </div>              
+            </div>
+            <!-- FIM - Produção Fibras -->
+
+            <!-- INICIO - Terebentina -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Terebentina</h2>
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="terebentina">Estoque</label>
+                    <input type="number" class="form-control" id="terebentina" placeholder="m³">
+                </div>               
+            </div>
+            <!-- FIM - Terebentina -->
+
+            <!-- INICIO - Resumo do Dia -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Resumo do Dia</h2>
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="cozTurno">Cozimentos Turno</label>
+                    <input type="number" class="form-control" id="cozTurno" placeholder="Qtd Cozimentos">
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="cozDia">Cozimentos Dia</label>
+                    <input type="number" class="form-control" id="cozDia" placeholder="Qtd Cozimentos">
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="tac">TAC</label>
+                    <input type="number" class="form-control" id="tac" placeholder="%">
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="lpfTotal">LPF Total</label>
+                    <input type="number" class="form-control" id="lpfTotal" placeholder="m³">
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="solidos">Sólidos</label>
+                    <input type="number" class="form-control" id="solidos" placeholder="%">
+                </div>              
+            </div>
+            <!-- FIM - Resumo do Dia -->
+
+            <hr>
+            <button type="submit" class="btn btn-success btn-lg btn-block">Enviar</button>
+            <hr>
+        </form>     
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/script-fibras.js"></script>
+  </body>
+</html>
