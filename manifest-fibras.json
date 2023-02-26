@@ -1,0 +1,32 @@
+{
+  "short_name": "Update",
+  "name": "Update - Fibras",
+  "icons": [
+    {
+      "src": "favicon-16x16.png",
+      "type": "img/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "favicon-32x32.png",
+      "type": "img/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "type": "img/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "android-chrome-192x192.png",
+      "type": "img/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "type": "img/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://daniloluiz.github.io/update-fibras?pwa_launcher=true"
+}
