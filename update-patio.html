@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Update - Produção Pátio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="shortcut icon" href="./img/favicon.ico" />
+    <link rel="icon" href="./img/favicon.ico">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <div class="container">
+        
+        <div class="text-center">
+            <hr>
+            <img src="./img/klingele.png" class="img-fluid">
+        </div>
+        <hr>
+            <h2 class= "text-center">UPDATE - Produção Pátio</h2>
+        <hr>
+        <form id="sendForm" action="" method="POST" name="form">
+            
+            <!-- INICIO - Data e Turno -->
+            <div class="form-row col-md-12">
+                <div class="form-group col-md-6">
+                    <label for="data">Data</label>
+                    <input type="date" class="form-control" id="data">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="horaTurno">Horário</label>
+                    <select id="horaTurno" class="form-control">
+                        <option selected>Selecione...</option>
+                        <option>00:00 às 08:00</option>
+                        <option>08:00 às 16:00</option>
+                        <option>16:00 às 00:00</option>
+                    </select>
+                </div>
+            </div>
+            <!-- FIM - Data e Turno -->
+        
+            <!-- INICIO - Producao -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Produção</h2>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="producao">Produção atual</label>
+                    <input type="number" class="form-control" id="producao" placeholder="Tn">`
+                </div>      
+            </div>
+            <!-- FIM - Producao -->
+
+            <!-- INICIO - Troca Facas -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Última troca de facas</h2>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="pt01">PT-01</label>
+                    <input type="time" class="form-control" id="pt01">
+                </div>
+                
+                <div class="form-group col-md-6">
+                    <label for="pt02">PT-02</label>
+                    <input type="time" class="form-control" id="pt02">
+                </div>
+            </div>
+            <!-- FIM - Troca de Facas -->
+
+            <!-- INICIO - Paradas -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Paradas do processo</h2>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="dds">DDS</label>
+                    <input type="number" class="form-control" id="dds" placeholder="Min">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="entupimentos">Entupimentos</label>
+                    <input type="number" class="form-control" id="entupimentos" placeholder="Min">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="enroscos">Enroscos</label>
+                    <input type="number" class="form-control" id="enroscos" placeholder="Min">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="energia">Falta de Energia</label>
+                    <input type="number" class="form-control" id="energia" placeholder="Min">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="intertravamento">Intertravamento do Descascador</label>
+                    <input type="number" class="form-control" id="intertravamento" placeholder="Min">
+                </div>
+            </div>
+            <!-- FIM - Paradas -->
+
+            <!-- INICIO - Transbordo -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Jogo de facas afiados</h2>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="afiado">Afiado</label>
+                    <input type="number" class="form-control" id="afiado" placeholder="Jogos">
+                </div>
+            </div>
+            <!-- FIM - Transbordo -->
+
+            <!-- INICIO - Transbordo -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Transbordo</h2>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="transbordo">Cargas Turno</label>
+                    <input type="number" class="form-control" id="tran  sbordo" placeholder="Cargas">
+                </div>
+            </div>
+            <!-- FIM - Transbordo -->
+
+            <hr>
+            <button type="submit" class="btn btn-success btn-lg btn-block">Enviar</button>
+            <hr>
+        </form>     
+    </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="./js/jquery-3.3.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/abcdef.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="http://connect.facebook.net/en_US/all.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+  </body>
+</html>
