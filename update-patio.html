@@ -98,6 +98,18 @@
                     <label for="energia">Falta de Energia</label>
                     <input type="number" class="form-control" id="energia" placeholder="Min">
                 </div>
+              <div class="form-group col-md-6">
+                    <label for="mecanica">Mecânica</label>
+                    <input type="number" class="form-control" id="mecanica" placeholder="Min">
+                </div>
+              <div class="form-group col-md-6">
+                    <label for="lubrificacao">Lubrificação</label>
+                    <input type="number" class="form-control" id="lubrificacao" placeholder="Min">
+                </div>
+              <div class="form-group col-md-6">
+                    <label for="outros">Outros</label>
+                    <input type="number" class="form-control" id="outros" placeholder="Min">
+                </div>
                 <div class="form-group col-md-6">
                     <label for="intertravamento">Intertravamento do Descascador</label>
                     <input type="number" class="form-control" id="intertravamento" placeholder="Min">
@@ -105,7 +117,20 @@
             </div>
             <!-- FIM - Paradas -->
 
-            <!-- INICIO - Transbordo -->
+          <!-- INICIO - Observacao -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Observação</h2>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="observacao">Observação</label>
+                    <input type="text" class="form-control" id="observacao">
+                </div>
+            </div>
+            <!-- FIM - Observacao -->
+
+            <!-- INICIO - Facas -->
             <div class="form-row">
                 <div class="form-group col-md-12">
                     <hr>
@@ -116,7 +141,7 @@
                     <input type="number" class="form-control" id="afiado" placeholder="Jogos">
                 </div>
             </div>
-            <!-- FIM - Transbordo -->
+            <!-- FIM - Facas -->
 
             <!-- INICIO - Transbordo -->
             <div class="form-row">
@@ -130,6 +155,19 @@
                 </div>
             </div>
             <!-- FIM - Transbordo -->
+
+          <!-- INICIO - Pendencias -->
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <hr>
+                    <h4 class= "text-center">Pendências</h2>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="pendencias">Pendências</label>
+                    <input type="number" class="form-control" id="pendencias">
+                </div>
+            </div>
+            <!-- FIM - Pendencias -->
 
             <hr>
             <button type="submit" class="btn btn-success btn-lg btn-block">Enviar</button>
