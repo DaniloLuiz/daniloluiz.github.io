@@ -18,7 +18,7 @@ $(function() {
     var mecanica = document.querySelector('#mecanica').value;
     var lubrificacao = document.querySelector('#lubrificacao').value;
     var outros = document.querySelector('#outros').value;
-    var minTotal = +entupimentos + +enroscos + +energia + +mecanica + +lubrificacao + +outros;
+    var minTotal = +dds + +entupimentos + +enroscos + +energia + +mecanica + +lubrificacao + +outros;
     var intertravamento = document.querySelector('#intertravamento').value;
     var observacao = document.querySelector('#observacao').value;
     var afiado = document.querySelector('#afiado').value;
